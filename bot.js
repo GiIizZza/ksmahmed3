@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "your prefix here";
+const prefix = "3";
 /////////////////////////
 ////////////////////////
 
@@ -349,7 +349,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : CF Na World Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Toxic Codes Team`,"http://twitch.tv/Toxic Codes")
+client.user.setGame(`3Play`,"https://www.twitch.tv/gizaonlyone")
 client.user.setStatus("dnd")
 });
 
